@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item a {
+  display: block;
+  padding: 1em;
+  
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-item a:hover {
+  background-color: #ddd;
+}
+.blue-text {
+  background-color: blue;
+  color: yellow;
+}
+
+.yellow-text {
+  background-color: yellow;
+  color: blue;
+}
+a
+{
+  text-decoration: none;
+  
+}
