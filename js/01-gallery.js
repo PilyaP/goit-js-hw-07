@@ -34,7 +34,7 @@ function onPaletteContainerClk(evt) {
   `);
   instance.show();
 
-  // 
+  
   document.addEventListener("keydown", closePicture);
 }
 
